@@ -75,7 +75,7 @@ section {
 section a {
   font-size: 4rem;
   text-decoration: none;
-  color: #f4f4f4;
+  color: #fff;
   transition: all 400ms ease-in-out;
 }
 
@@ -100,23 +100,18 @@ section#home {
     center center/cover;
 }
 
-section#about {
+section#workout {
   background: url("https://source.unsplash.com/vjkM-0m34KU/1600x900") no-repeat
     center center/cover;
 }
 
-section#service {
-  background: url("https://source.unsplash.com/uQ9CSV9eJYw/1600x900") no-repeat
+section#advice {
+  background: url("https://source.unsplash.com/yEKFixUQydo/1600x900") no-repeat
     center center/cover;
 }
 
-section#contact {
-  background: url("https://source.unsplash.com/kjsDWQQmadk/1600x900") no-repeat
-    center center/cover;
-}
-
-section#nutrition {
-  background: url("https://source.unsplash.com/LxC1Qx1qulc/1600x900") no-repeat
+section#information {
+  background: url("https://source.unsplash.com/QP84K2HuIMY/1600x900") no-repeat
     center center/cover;
 }
 
