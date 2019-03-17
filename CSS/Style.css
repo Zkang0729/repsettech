@@ -96,26 +96,33 @@ section h1 span {
 
 /* Section Images */
 section#home {
-  background: url("https://source.unsplash.com/bZZp1PmHI0E/1600x900") no-repeat
-    center center/cover;
+  background: url("https://source.unsplash.com/bZZp1PmHI0E/1600x900") no-repeat center center/cover;
 }
 
 section#workout {
-  background: url("https://source.unsplash.com/vjkM-0m34KU/1600x900") no-repeat
-    center center/cover;
+  background: url("https://source.unsplash.com/vjkM-0m34KU/1600x900") no-repeat center center/cover;
 }
 
 section#advice {
-  background: url("https://source.unsplash.com/yEKFixUQydo/1600x900") no-repeat
-    center center/cover;
+  background: url("https://source.unsplash.com/yEKFixUQydo/1600x900") no-repeat center center/cover;
 }
 
 section#information {
-  background: url("https://source.unsplash.com/QP84K2HuIMY/1600x900") no-repeat
-    center center/cover;
+  background: url("https://source.unsplash.com/QP84K2HuIMY/1600x900") no-repeat center center/cover;
 }
 
 section#shop {
-  background: url("https://source.unsplash.com/U5kQvbQWoG0/1600x900") no-repeat
-    center center/cover;
+  background: url("https://source.unsplash.com/U5kQvbQWoG0/1600x900") no-repeat center center/cover;
+}
+
+footer {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  color: #f4f4f4;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  overflow-y: hidden;
 }
