@@ -1,93 +1,111 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #333;
-    color: #fff;
-    height: 100vh;
-    line-height: 1.6;
-    overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
 }
 
 .logo {
-    z-index: 0;
-    position: absolute;
-    width: calc(100vw / 3);
-    height: 100vh;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  z-index: 0;
+  position: absolute;
+  width: calc(100vw / 3);
+  height: 100vh;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .logo button {
-    cursor: pointer;
-    font-size: 4rem;
-    background: none;
-    border: none;
-    transition: all 700ms ease-in-out;
+  cursor: pointer;
+  font-size: 4rem;
+  background: none;
+  border: none;
+  transition: all 700ms ease-in-out;
 }
 
 .logo:hover button {
-    font-size: 7rem;
-    transition: all 700ms ease-in-out;
+  font-size: 7rem;
+  transition: all 700ms ease-in-out;
 }
 
 .logo button a {
-    text-decoration: none;
-    color: #f4f4f4;
-    text-shadow: 0.2rem 0.2rem 1.5rem #c3c3c3;
+  text-decoration: none;
+  color: #f4f4f4;
+  text-shadow: 0.2rem 0.2rem 1.5rem #c3c3c3;
+}
+
+#instruction {
+  left: 0;
+  width: 25vw;
+  background: url(../img/Instruction.jpg) no-repeat center center/cover;
+  transition: all 700ms ease-in-out;
+}
+
+#instruction:hover {
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  transition: all 700ms ease-in-out;
 }
 
 #upperbody {
-    left: 0;
-    background: url(../img/UpperBody.jpg) no-repeat center center/cover;
-    transition: all 700ms ease-in-out;
+  left: 25vw;
+  width: 25vw;
+  background: url(../img/UpperBody.jpg) no-repeat center center/cover;
+  transition: all 700ms ease-in-out;
 }
 
 #upperbody:hover {
-    z-index: 2;
-    width: 100vw;
-    transition: all 700ms ease-in-out;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  transition: all 700ms ease-in-out;
 }
 
 #core {
-    left: calc(100vw / 3);
-    background: url(../img/Core.jpg) no-repeat center center/cover;
-    transition: all 700ms ease-in-out;
+  right: 25vw;
+  width: 25vw;
+  background: url(../img/Core.jpg) no-repeat center center/cover;
+  transition: all 700ms ease-in-out;
 }
 
 #core:hover {
-    z-index: 2;
-    left: 0;
-    width: 100vw;
-    transition: all 700ms ease-in-out;
+  z-index: 2;
+  right: 0;
+  width: 100vw;
+  transition: all 700ms ease-in-out;
 }
 
 #lowerbody {
-    right: 0;
-    background: url(../img/LowerBody.jpg) no-repeat center center/cover;
-    transition: all 700ms ease-in-out;
+  right: 0;
+  width: 25vw;
+  background: url(../img/LowerBody.jpg) no-repeat center center/cover;
+  transition: all 700ms ease-in-out;
 }
 
 #lowerbody:hover {
-    z-index: 2;
-    width: 100vw;
-    transition: all 700ms ease-in-out;
+  z-index: 2;
+  width: 100vw;
+  transition: all 700ms ease-in-out;
 }
 
 footer {
-    z-index: 4;
-    position: absolute;
-    box-sizing: border-box;
-    display: block;
-    color: #f4f4f4;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    padding: 1rem;
-    overflow-y: hidden;
+  z-index: 4;
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  color: #f4f4f4;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  overflow-y: hidden;
 }
