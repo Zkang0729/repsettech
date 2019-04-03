@@ -1,0 +1,14 @@
+.navigationbar {
+  position: unset;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+iframe {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4rem;
+}
