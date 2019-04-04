@@ -1,0 +1,205 @@
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.navigationbar {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+section {
+  display: grid;
+  padding: 3rem 5rem;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  scroll-snap-align: center;
+}
+
+section div {
+  padding: 1.5rem;
+}
+
+section .introduction {
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 3rem 1.5rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+section .work {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+section .practice {
+  padding: 0;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+section .practice .benifit {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+section .practice .dosage {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+section .shop {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+section p,
+section ul li {
+  font-size: 1.1rem;
+}
+
+section h3 {
+  font-size: 1.4rem;
+  color: #ffbf80;
+}
+
+section h1 {
+  font-size: 3rem;
+  font-weight: 1000;
+  color: #ff6600;
+  text-shadow: 2px 2px #f4f4f4;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+section .shop img {
+  position: relative;
+  display: block;
+  height: 10rem;
+  width: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem 2rem;
+}
+
+section button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #33cc33;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  box-shadow: -2px -2px #f4f4f4;
+  transition: all 300ms ease-in-out;
+}
+
+section button:hover {
+  box-shadow: none;
+  transition: all 300ms ease-in-out;
+}
+
+section a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  color: #f4f4f4;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  overflow-y: hidden;
+  background: black;
+}
+
+#citrulline .dosage {
+  line-height: 1.4;
+  padding: 0;
+}
+
+#citrulline .dosage div {
+  padding: 0;
+}
+
+#citrulline .dosage strong {
+  color: #f4f4f4;
+  font-weight: 1000;
+  font-size: 1.1rem;
+}
+
+#whey .work div {
+  padding: 0;
+}
+
+#whey .work strong {
+  display: inline-block;
+}
+
+#bcaa .introduction,
+#bcaa .work,
+#whey .introduction,
+#whey .work {
+  padding: 1.5rem 4rem;
+}
+
+#creatine {
+  background: url("https://source.unsplash.com/SshYpuf607g/1600x900") no-repeat center center/cover;
+}
+
+#caffeine {
+  background: url("https://source.unsplash.com/OmOvMdiaZZ0/1600x900") no-repeat center center/cover;
+}
+
+#alanine {
+  background: url("https://source.unsplash.com/uwbajDCODj4/1600x900") no-repeat center center/cover;
+}
+
+#citrulline {
+  background: url("https://source.unsplash.com/j0g8taxHZa0/1600x900") no-repeat center center/cover;
+}
+
+#bcaa {
+  background: url("https://source.unsplash.com/Q1p7bh3SHj8/1600x900") no-repeat center center/cover;
+}
+
+#whey {
+  background: url("https://source.unsplash.com/WEQbe2jBg40/1600x900") no-repeat center center/cover;
+}
