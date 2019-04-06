@@ -1,37 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      href="img/HatchfulExport-All/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Advice</title>
+  </head>
+  <link rel="stylesheet" href="CSS/Navbar.css" />
+  <link rel="stylesheet" href="CSS/advice.css" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+  />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Advice</title>
-</head>
-<link rel="stylesheet" href="CSS/Navbar.css" />
-<link rel="stylesheet" href="CSS/advice.css" />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-
-<body>
-  <nav class="navigationbar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li class="dropdown">
-        <a href="workout.html" class="dropdownbtn">Work Out <i class="fa fa-sort-down"></i></a>
-        <div id="theDropDown" class="dropdown-content">
-          <a href="instruction.html">General Instruction</a>
-          <a href="upperbody.html">Upper Body</a>
-          <a href="core.html">Core</a>
-          <a href="lowerbody.html">Lower Body</a>
+  <body>
+    <nav class="navigationbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="workout.html" class="dropdownbtn"
+            >Work Out <i class="fa fa-sort-down"></i
+          ></a>
+          <div id="theDropDown" class="dropdown-content">
+            <a href="instruction.html">General Instruction</a>
+            <a href="upperbody.html">Upper Body</a>
+            <a href="core.html">Core</a>
+            <a href="lowerbody.html">Lower Body</a>
+          </div>
+        </li>
+        <li><a href="advice.html">Advice</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="supplement.html">Supplement</a></li>
+      </ul>
+    </nav>
+    <div class="advice">
+      <div class="chat">
+        <div class="title">
+          <h1>We Interviewed The Gym Goer In The CRC.</h1>
+          <h1>Here's What We Got...</h1>
+          <a href="#question1"><i class="fas fa-chevron-down"></i></a>
         </div>
-      </li>
-      <li><a href="advice.html">Advice</a></li>
-      <li><a href="nutrition.html">Nutrition</a></li>
-      <li><a href="supplement.html">Supplement</a></li>
-    </ul>
-  </nav>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="Javascript/NavBar.js"></script>
-</body>
-
+        <div class="container" id="question1">
+          <h1>What was the hardest part about starting to go to the gym?</h1>
+          <p align="justify">
+            The hardest part was the first few workouts I had after going to the
+            gym for the first time. My muscles were sore and I needed to
+            increase the weights every workout. I couldn’t walk or move properly
+            for the first week.
+          </p>
+        </div>
+        <div class="container" id="question2">
+          <h1>How did you ease into working out?</h1>
+          <p align="justify">
+            Having a set schedule and a friend to work out with was what made it
+            easy. Without a set schedule, I feel that I would either
+            procrastinate or not feel motivated to go. Making workout a part of
+            my daily schedule helped a lot. Furthermore, having a friend to go
+            with me was not only made the workout fun in general but he also
+            kept me in check.
+          </p>
+        </div>
+        <div class="container" id="question3">
+          <h1>
+            What is one piece of advice you would give to a beginner in the gym?
+          </h1>
+          <p align="justify">
+            Have a set schedule and make sure to follow it. Don’t overwork
+            yourself because the faster you move up the weight, the harder it
+            becomes and the less motivating it becomes. There is no reason to
+            rush to take it slow. Also, finding a friend or gym partner to go
+            with you might ensure the longevity of the workout.
+          </p>
+        </div>
+        <div class="container" id="question4">
+          <h1>How did your nutrition change?</h1>
+          <p align="justify">
+            I tried not to make drastic changes to my diet. Suddenly changing
+            the amount you eat or changing the type of food you eat might affect
+            your weight in the short run but your body will ultimately return to
+            its original state due to the yo-yo effect. I only cut out what was
+            bad for me which included any drinks other than water and milk and
+            decreased the amount of fried food. I also try to not eat anything
+            after 10 P.M.
+          </p>
+        </div>
+        <div class="container" id="question5">
+          <h1>What are your goals?</h1>
+          <p align="justify">
+            My goal with my body is to become leaner and become stronger over a
+            long period of time. This would mean controlling my diet and working
+            out with routine. My ultimate goal is to get into a habit of
+            exercising and working out so that it carries over to when I am
+            older.
+          </p>
+        </div>
+      </div>
+      <div class="goal">
+        <h1>Tips For Different Workout Goals</h1>
+        <div class="section" id="stronger">
+          <h3>Getting Stronger</h3>
+          <p align="justify">
+            If you want to strictly get stronger, the assumption is that you are
+            lifting weights or something along the lines of that. It is harder
+            to get stronger without gaining weight/muscle because, at a certain
+            point, your body will reach its peak strength levels. In order to
+            become stronger, your muscles must tear and rebuild larger than
+            before. This means you will gain weight. Assuming you have a
+            rigorous enough workout routine (at least 3 days a week with heavier
+            weights), the first nutritional step you should take is to go to the
+            calorie calculator mentioned earlier to find your maintenance
+            caloric intake. In order to get stronger, you will need to build
+            muscle, so it’s recommended that you try to add about 500 calories
+            to your caloric intake. This usually will guarantee a gain in weight
+            and muscle mass. A good way to keep track of all of this is the app
+            <a href="https://www.myfitnesspal.com/">MyFitnessPal</a>. It shows
+            you what macronutrients you need for each day and you can input the
+            foods you eat to make sure you hit those goals. It can also track
+            your weight so you can see if you’re gaining weight or not. If
+            things aren’t going smoothly, you can adjust the settings or your
+            goals.
+          </p>
+        </div>
+        <div class="section" id="weight">
+          <h3>Gain Weight</h3>
+          <p align="justify">
+            If you are looking to strictly gain weight, the only thing you need
+            to do is eat 500 more calories per day than your maintenance caloric
+            intake and use the app mentioned to keep track of your progress.
+          </p>
+        </div>
+        <div class="section" id="muscle">
+          <h3>Build Muscle</h3>
+          <p align="justify">
+            If you want to mainly build muscle, there isn’t much room to be
+            super unhealthy with your diet. IIFYM won’t yield the best results
+            because there are many processed foods and simple sugars that could
+            lead to fat gain (fruits, sugar, white bread, soda, syrup, baked
+            treats, and kid’s cereal). It is impossible for a regular person
+            with a regular body to gain muscle without gaining any fat unless
+            maybe if you already had the muscle before and you’re regaining it,
+            but this website is for beginners. If you are a beginner on the more
+            overweight side of the spectrum, it is possible to lose fat and gain
+            muscle at the same time. But as a regular person, if you want to
+            gain the least amount of fat possible while still building muscle,
+            you need to stay extremely disciplined in your workout routine and
+            diet. If you’re gaining weight too fast, decrease the amount of
+            added calories to your maintenance caloric intake.
+          </p>
+        </div>
+        <div class="section" id="loseweight">
+          <h3>Lose Weight</h3>
+          <p align="justify">
+            If you want to strictly lose weight, eat about 500 fewer calories
+            per day than your maintenance caloric intake. If this is too much of
+            a difference, you can ease into it by starting out with -100
+            calories. Exercise isn’t necessarily required to lose weight, but
+            it’s easier if you do exercise. Exercise will burn calories, which
+            means it’s easier for you to eat fewer net calories in a day.
+          </p>
+        </div>
+        <div class="section" id="fat">
+          <h3>Lose Fat</h3>
+          <p align="justify">
+            Losing fat requires a certain amount of discipline because it means
+            that you want to keep most, if not all of the muscle, you have now
+            and only cut the fat. As mentioned in the above bullet, you have to
+            eat fewer calories, but in order to make sure your muscles don’t
+            disappear, you should increase your protein intake. This protein
+            intake is referring to the amount recommended by the app mentioned
+            earlier or, to make it simple, 1 gram of protein per lb of body
+            weight (1.5 grams if you are skinnier). So for example, you could go
+            from 220 grams to 250 grams of protein a day.
+          </p>
+          <h4>
+            There are some specific diets that are popular for losing fat.
+          </h4>
+          <ul>
+            <li align="justify">
+              Intermittent Fasting - “an eating pattern that cycles between
+              periods of fasting and eating” w . You can basically eat anything
+              you want, but it has to be within a certain window. If you want
+              the best results, it’s best to eat healthier foods. The most
+              common method is the 16/8 method which is when you restrict your
+              eating to only 8 hours of the day. This is usually from noon to
+              about 8:00 pm, but it all depends on your preference.
+            </li>
+            <li align="justify">
+              The Ketogenic Diet - “The ketogenic diet is a very low-carb,
+              high-fat diet that shares many similarities with the Atkins and
+              low-carb diets. It involves drastically reducing carbohydrate
+              intake and replacing it with fat. This reduction in carbs puts
+              your body into a metabolic state called ketosis. When this
+              happens, your body becomes incredibly efficient at burning fat for
+              energy. It also turns fat into ketones in the liver, which can
+              supply energy for the brain.”
+            </li>
+          </ul>
+        </div>
+        <div class="section" id="healthy">
+          <h3>Stay Healthy</h3>
+          <p align="justify">
+            Be Healthy This is pretty broad because it all depends on what your
+            perception of healthy is. This section uses a common consensus when
+            it comes to being healthy. Healthy is being within your recommended
+            weight range, exercising on a consistent basis, and eating more
+            organic/“real” foods and less processed foods.
+          </p>
+        </div>
+      </div>
+      <footer>
+        2019 &copy; Copyright, Rep Set Tech
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+    <script src="Javascript/NavBar.js"></script>
+    <script src="Javascript/chatscroll.js"></script>
+  </body>
 </html>

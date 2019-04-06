@@ -97,23 +97,28 @@ section h1 span {
 
 /* Section Images */
 section#home {
-  background: url("https://source.unsplash.com/bZZp1PmHI0E/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/bZZp1PmHI0E/1600x900") no-repeat
+    center center/cover;
 }
 
 section#workout {
-  background: url("https://source.unsplash.com/vjkM-0m34KU/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/vjkM-0m34KU/1600x900") no-repeat
+    center center/cover;
 }
 
 section#advice {
-  background: url("https://source.unsplash.com/yEKFixUQydo/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/yEKFixUQydo/1600x900") no-repeat
+    center center/cover;
 }
 
 section#nutrition {
-  background: url("https://source.unsplash.com/QP84K2HuIMY/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/QP84K2HuIMY/1600x900") no-repeat
+    center center/cover;
 }
 
 section#supplement {
-  background: url("https://source.unsplash.com/U5kQvbQWoG0/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/U5kQvbQWoG0/1600x900") no-repeat
+    center center/cover;
 }
 
 footer {
