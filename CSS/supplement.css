@@ -152,11 +152,12 @@ footer {
 
 #citrulline .dosage {
   line-height: 1.4;
-  padding: 0;
+  padding: 0 1.5rem;
 }
 
 #citrulline .dosage div {
-  padding: 0;
+  font-size: 1rem;
+  padding: 0
 }
 
 #citrulline .dosage strong {
@@ -181,31 +182,37 @@ footer {
 }
 
 #creatine {
-  background: url("https://source.unsplash.com/SshYpuf607g/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/SshYpuf607g/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
 }
 
 #caffeine {
-  background: url("https://source.unsplash.com/OmOvMdiaZZ0/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/OmOvMdiaZZ0/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
 }
 
 #alanine {
-  background: url("https://source.unsplash.com/uwbajDCODj4/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/uwbajDCODj4/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
 }
 
 #citrulline {
-  background: url("https://source.unsplash.com/j0g8taxHZa0/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/j0g8taxHZa0/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
 }
 
 #bcaa {
-  background: url("https://source.unsplash.com/Q1p7bh3SHj8/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/Q1p7bh3SHj8/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
 }
 
 #whey {
-  background: url("https://source.unsplash.com/WEQbe2jBg40/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/WEQbe2jBg40/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
 }

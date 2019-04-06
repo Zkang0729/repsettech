@@ -10,6 +10,7 @@
 .section {
   height: 100vh;
   width: 100%;
+  scroll-snap-align: center;
 }
 
 #diet {
@@ -19,6 +20,7 @@
   justify-content: center;
   justify-items: center;
   background: url("https://source.unsplash.com/mVuKCYMGZBM/1600x900") no-repeat center center/cover;
+  background-attachment: fixed;
 }
 
 #diet::before,
@@ -58,6 +60,40 @@
 
 #diet ul li {
   font-size: 1.3rem;
+}
+
+
+@keyframes slide {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes deslide {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+
+}
+
+.animate {
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+.deanimate {
+  animation-name: deslide;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
 @keyframes wobble {
@@ -112,7 +148,8 @@
 }
 
 #nutrient {
-  background: #666;
+  background: url("https://source.unsplash.com/5hvn-2WW6rY/1600x900") no-repeat center center/cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -157,6 +194,7 @@
   height: 18rem;
   grid-row-start: 1;
   grid-row-end: 3;
+  opacity: 0;
 }
 
 .macro #proteins {
@@ -164,6 +202,7 @@
   height: 10rem;
   grid-row-start: 1;
   grid-row-end: 2;
+  opacity: 0;
 }
 
 .macro #fat {
@@ -171,6 +210,7 @@
   height: 10rem;
   grid-row-start: 2;
   grid-row-end: 3;
+  opacity: 0;
 }
 
 .image-micro {
@@ -183,6 +223,7 @@
   height: 12rem;
   grid-row-start: 1;
   grid-row-end: 2;
+  opacity: 0
 }
 
 .micro #vitamin {
@@ -190,6 +231,7 @@
   height: 12rem;
   grid-row-start: 2;
   grid-row-end: 3;
+  opacity: 0;
 }
 
 .micro #spinage {
@@ -199,4 +241,33 @@
   grid-row-start: 1;
   grid-row-end: 3;
   object-fit: cover;
+  opacity: 0;
+}
+
+#tips {
+  background: url("https://source.unsplash.com/w1_4YH5IhDg/1600x900") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+#tips h1 {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+}
+
+#tips div {
+  padding: 0 10rem;
+}
+
+#tips div h3 {
+  font-size: 2.5rem;
+}
+
+#tips div ul li {
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
 }
