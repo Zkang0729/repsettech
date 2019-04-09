@@ -1,0 +1,35 @@
+.supplements {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.supplements h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.supplements ol {
+  font-size: 1.3rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.supplements ol li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  color: #f4f4f4;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  overflow-y: hidden;
+  height: 3rem;
+}

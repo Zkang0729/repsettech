@@ -7,6 +7,7 @@ body {
 }
 
 .container {
+  overflow-y: scroll;
   display: block;
   width: 100%;
   height: calc(100vh - 60px);
@@ -25,16 +26,19 @@ body {
 #upperbody::before {
   background: url("https://source.unsplash.com/iDJoeqe5Lug/1600x900") center
     center/cover;
+  background-attachment: fixed;
 }
 
 #core::before {
   background: url("https://source.unsplash.com/7cZWq8CaD-s/1600x900") center
     center/cover;
+  background-attachment: fixed;
 }
 
 #lowerbody::before {
   background: url("https://source.unsplash.com/PHIgYUGQPvU/1600x900") center
     center/cover;
+  background-attachment: fixed;
 }
 
 iframe {
@@ -44,14 +48,31 @@ iframe {
   margin-top: 4rem;
 }
 
+.words {
+  padding: 3rem 16rem;
+  position: relative;
+}
+
+.words h2 {
+  font-size: 3rem;
+  padding: 2rem 1rem;
+  padding-top: 0;
+}
+
+.words ol {
+  font-size: 1.6rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 footer {
-  position: absolute;
+  position: relative;
   box-sizing: border-box;
   display: block;
   color: #f4f4f4;
   text-align: center;
   width: 100%;
-  bottom: 0;
   padding: 1rem;
   overflow-y: hidden;
 }
