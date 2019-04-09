@@ -19,7 +19,8 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
-  background: url("https://source.unsplash.com/mVuKCYMGZBM/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/mVuKCYMGZBM/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
 }
 
@@ -62,7 +63,6 @@
   font-size: 1.3rem;
 }
 
-
 @keyframes slide {
   from {
     opacity: 0;
@@ -81,7 +81,6 @@
   to {
     opacity: 0;
   }
-
 }
 
 .animate {
@@ -148,7 +147,8 @@
 }
 
 #nutrient {
-  background: url("https://source.unsplash.com/5hvn-2WW6rY/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/5hvn-2WW6rY/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -223,7 +223,7 @@
   height: 12rem;
   grid-row-start: 1;
   grid-row-end: 2;
-  opacity: 0
+  opacity: 0;
 }
 
 .micro #vitamin {
@@ -245,7 +245,8 @@
 }
 
 #tips {
-  background: url("https://source.unsplash.com/w1_4YH5IhDg/1600x900") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/w1_4YH5IhDg/1600x900") no-repeat
+    center center/cover;
   background-attachment: fixed;
 }
 
@@ -270,4 +271,16 @@
 #tips div ul li {
   font-size: 1.2rem;
   padding: 0.2rem 0;
+}
+
+footer {
+  position: unset;
+  box-sizing: border-box;
+  display: block;
+  color: white;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  overflow-y: hidden;
 }

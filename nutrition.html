@@ -1,140 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      href="img/HatchfulExport-All/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Nutrition</title>
+  </head>
+  <link rel="stylesheet" href="CSS/Navbar.css" />
+  <link rel="stylesheet" href="CSS/nutrition.css" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+  />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="img/HatchfulExport-All/favicon.png" type="image/x-icon">
-  <title>Nutrition</title>
-</head>
-<link rel="stylesheet" href="CSS/Navbar.css">
-<link rel="stylesheet" href="CSS/nutrition.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-<body>
-  <nav class="navigationbar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li class="dropdown">
-        <a href="workout.html" class="dropdownbtn">Work Out <i class="fa fa-sort-down"></i></a>
-        <div id="theDropDown" class="dropdown-content">
-          <a href="instruction.html">General Instruction</a>
-          <a href="upperbody.html">Upper Body</a>
-          <a href="core.html">Core</a>
-          <a href="lowerbody.html">Lower Body</a>
-        </div>
-      </li>
-      <li><a href="advice.html">Advice</a></li>
-      <li><a href="nutrition.html">Nutrition</a></li>
-      <li><a href="supplement.html">Supplement</a></li>
-    </ul>
-  </nav>
-  <div class="container">
-    <div id="diet" class="section">
-      <h1>What Is The Diet ?</h1>
+  <body>
+    <nav class="navigationbar">
       <ul>
-        <li>
-          “A particular selection of food, especially as designed or prescribed to improve a person's physical
-          condition or to prevent or treat a disease”
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="workout.html" class="dropdownbtn"
+            >Work Out <i class="fa fa-sort-down"></i
+          ></a>
+          <div id="theDropDown" class="dropdown-content">
+            <a href="instruction.html">General Instruction</a>
+            <a href="upperbody.html">Upper Body</a>
+            <a href="core.html">Core</a>
+            <a href="lowerbody.html">Lower Body</a>
+          </div>
         </li>
-        <li>
-          Dieting doesn’t always mean losing weight, which is a big misconception &mdash; It can mean simply changing
-          the contents/properties of the food you’re eating
-        </li>
-        <li>
-          A diet for someone who wants to lose weight will be different than one for someone who wants to gain muscle
-          for example.
-        </li>
+        <li><a href="advice.html">Advice</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="supplement.html">Supplement</a></li>
       </ul>
-      <div class="arrow">
-        <a href="#nutrient">Click For More</a>
-        <div class="right"> </div>
-        <div class="left"> </div>
-      </div>
-    </div>
-    <div id="nutrient" class="section">
-      <div class="macro" id="nutrition">
-        <h1>Macro Nutrients</h1>
-        <p>
-          “Macronutrients are the main nutrients that make up the foods we eat. There are three, and you’ve probably
-          heard of them before: Carbohydrates, Protein, and Fat.”
-        </p>
-        <div class="image-macro">
-          <img src="https://source.unsplash.com/_SIAlvImQQg/1600x900" alt="Wheat" id="wheat">
-          <img src="https://source.unsplash.com/leOh1CzRZVQ/1600x900" alt="Proteins" id="proteins">
-          <img src="https://source.unsplash.com/6gbr24z3H5c/1600x900" alt="Fat" id="fat">
-        </div>
-      </div>
-      <div class="micro" id="nutrition">
-        <div class="image-micro">
-          <img src="https://source.unsplash.com/Jjfzvem5Sqo/1600x900" alt="Salt" id="salt">
-          <img src="https://source.unsplash.com/xSGCbGYQtO4/1600x900" alt="Vitamin" id="vitamin">
-          <img src="https://source.unsplash.com/P7W0V-3RXWQ/1600x900" alt="Spinage" id="spinage">
-        </div>
-        <h1>Micro Nutrients</h1>
-        <p>
-          “Micronutrients are small compounds needed in minimum amounts to enable the body to produce enzymes, hormones
-          and other substances essential for healthy growth and development. Commonly referred to as vitamins and
-          minerals, micronutrients include compounds such as Fluoride, Selenium, Sodium, Iodine, Copper, and Zinc. They
-          also include vitamins such as vitamin C, A, D, E, and K, as well as the B-complex vitamins.”
-        </p>
-      </div>
-    </div>
-    <div id="tips" class="section">
-      <h1 class="letter">You May Have Different Goals. Here Are Some Tips...</h1>
-      <div class="muscle">
-        <h3>Gaining Muscle</h3>
-        <ul align="justify">
+    </nav>
+    <div class="container">
+      <div id="diet" class="section">
+        <h1>What Is The Diet ?</h1>
+        <ul>
           <li>
-            Eat many times - about 5 - a day to make it easier to get all of the calories you need.
+            “A particular selection of food, especially as designed or
+            prescribed to improve a person's physical condition or to prevent or
+            treat a disease”
           </li>
           <li>
-            If you don’t want to constantly track your calories, create a meal plan where you have basically the same
-            meals every day.
+            Dieting doesn’t always mean losing weight, which is a big
+            misconception &mdash; It can mean simply changing the
+            contents/properties of the food you’re eating
           </li>
           <li>
-            Drink whey protein powder shakes (make sure they have good ingredients). This makes it easier to hit your
-            protein levels.
-          </li>
-          <li>
-            Plan and cook your meals ahead of time so that you don’t have to cook every time you want to eat
-          </li>
-          <li id="breakfast">
-            Eat breakfast
+            A diet for someone who wants to lose weight will be different than
+            one for someone who wants to gain muscle for example.
           </li>
         </ul>
+        <div class="arrow">
+          <a href="#nutrient">Click For More</a>
+          <div class="right"></div>
+          <div class="left"></div>
+        </div>
       </div>
-      <div class="healthy">
-        <h3>Staying Healthy/Losing Weight</h3>
-        <ul align="justify">
-          <li>
-            Only drink water - This is very simple, but it will cut out a lot of unnatural ingredients in things like
-            soda and alcohol. Also, if you are trying to stay a certain weight or lose weight, this will cut out a lot
-            of calories.
-          </li>
-          <li>
-            No fried food - Fried food has a lot of calories, particularly fat calories.
-          </li>
-          <li>
-            Try to eat complex carbohydrates - These are foods like oatmeal, rice, whole grain bread, potatoes, quinoa,
-            and beans. They digest slower than simple carbs, which makes it easier to stay full
-          </li>
-          <li>
-            Have cheat days - It’s great to eat completely healthy all year, but realistically, this is extremely hard
-            for most people. Having a cheat day once a week will keep you motivated because it acts as a reward for
-            eating well. A cheat day doesn’t mean you should eat the most unhealthy foods ever made. Still, use common
-            sense.
-          </li>
-        </ul>
+      <div id="nutrient" class="section">
+        <div class="macro" id="nutrition">
+          <h1>Macro Nutrients</h1>
+          <p>
+            “Macronutrients are the main nutrients that make up the foods we
+            eat. There are three, and you’ve probably heard of them before:
+            Carbohydrates, Protein, and Fat.”
+          </p>
+          <div class="image-macro">
+            <img
+              src="https://source.unsplash.com/_SIAlvImQQg/1600x900"
+              alt="Wheat"
+              id="wheat"
+            />
+            <img
+              src="https://source.unsplash.com/leOh1CzRZVQ/1600x900"
+              alt="Proteins"
+              id="proteins"
+            />
+            <img
+              src="https://source.unsplash.com/6gbr24z3H5c/1600x900"
+              alt="Fat"
+              id="fat"
+            />
+          </div>
+        </div>
+        <div class="micro" id="nutrition">
+          <div class="image-micro">
+            <img
+              src="https://source.unsplash.com/Jjfzvem5Sqo/1600x900"
+              alt="Salt"
+              id="salt"
+            />
+            <img
+              src="https://source.unsplash.com/xSGCbGYQtO4/1600x900"
+              alt="Vitamin"
+              id="vitamin"
+            />
+            <img
+              src="https://source.unsplash.com/P7W0V-3RXWQ/1600x900"
+              alt="Spinage"
+              id="spinage"
+            />
+          </div>
+          <h1>Micro Nutrients</h1>
+          <p>
+            “Micronutrients are small compounds needed in minimum amounts to
+            enable the body to produce enzymes, hormones and other substances
+            essential for healthy growth and development. Commonly referred to
+            as vitamins and minerals, micronutrients include compounds such as
+            Fluoride, Selenium, Sodium, Iodine, Copper, and Zinc. They also
+            include vitamins such as vitamin C, A, D, E, and K, as well as the
+            B-complex vitamins.”
+          </p>
+        </div>
+      </div>
+      <div id="tips" class="section">
+        <h1 class="letter">
+          You May Have Different Goals. Here Are Some Tips...
+        </h1>
+        <div class="muscle">
+          <h3>Gaining Muscle</h3>
+          <ul align="justify">
+            <li>
+              Eat many times - about 5 - a day to make it easier to get all of
+              the calories you need.
+            </li>
+            <li>
+              If you don’t want to constantly track your calories, create a meal
+              plan where you have basically the same meals every day.
+            </li>
+            <li>
+              Drink whey protein powder shakes (make sure they have good
+              ingredients). This makes it easier to hit your protein levels.
+            </li>
+            <li>
+              Plan and cook your meals ahead of time so that you don’t have to
+              cook every time you want to eat
+            </li>
+            <li id="breakfast">
+              Eat breakfast
+            </li>
+          </ul>
+        </div>
+        <div class="healthy">
+          <h3>Staying Healthy/Losing Weight</h3>
+          <ul align="justify">
+            <li>
+              Only drink water - This is very simple, but it will cut out a lot
+              of unnatural ingredients in things like soda and alcohol. Also, if
+              you are trying to stay a certain weight or lose weight, this will
+              cut out a lot of calories.
+            </li>
+            <li>
+              No fried food - Fried food has a lot of calories, particularly fat
+              calories.
+            </li>
+            <li>
+              Try to eat complex carbohydrates - These are foods like oatmeal,
+              rice, whole grain bread, potatoes, quinoa, and beans. They digest
+              slower than simple carbs, which makes it easier to stay full
+            </li>
+            <li>
+              Have cheat days - It’s great to eat completely healthy all year,
+              but realistically, this is extremely hard for most people. Having
+              a cheat day once a week will keep you motivated because it acts as
+              a reward for eating well. A cheat day doesn’t mean you should eat
+              the most unhealthy foods ever made. Still, use common sense.
+            </li>
+          </ul>
+        </div>
+        <footer>
+          2019 &copy; Copyright, Rep Set Tech
+        </footer>
       </div>
     </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
-  <script src="Javascript/NavBar.js"></script>
-  <script src="Javascript/Scroll.js"></script>
-</body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+    <script src="Javascript/NavBar.js"></script>
+    <script src="Javascript/Scroll.js"></script>
+  </body>
 </html>
