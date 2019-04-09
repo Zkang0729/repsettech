@@ -1,28 +1,58 @@
-.supplements {
-  padding: 6rem 0;
+.citation {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.citation::before {
+  content: "";
+  display: block;
+  height: 100vh;
+  width: 100%;
+  background: url("https://source.unsplash.com/V0zxMzW_-e0/1600x900") center
+    center/cover;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -2;
+}
+
+.navigationbar {
+  position: unset;
+}
+
+.section {
+  padding: 3rem 9rem;
   position: relative;
 }
 
-.supplements h1 {
+.section h1 {
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 1rem;
 }
 
-.supplements ol {
+.section ul {
+  list-style: none;
   font-size: 1.3rem;
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.supplements ol li a {
+.section ul li {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.section ul li a {
   color: white;
   text-decoration: none;
 }
 
 footer {
-  position: absolute;
+  position: relative;
   box-sizing: border-box;
   display: block;
   color: #f4f4f4;
