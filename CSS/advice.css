@@ -80,6 +80,10 @@
   width: 25%;
 }
 
+#question9 a {
+  color: black;
+}
+
 .container p {
   margin-top: 1rem;
   margin-bottom: 1rem;

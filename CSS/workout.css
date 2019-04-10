@@ -54,12 +54,17 @@ body {
   transition: all 700ms ease-in-out;
 }
 
-#instruction:hover {
+#instruction:hover button {
+  font-size: 5rem;
+  transition: all 700ms ease-in-out;
+}
+
+/*#instruction:hover {
   left: 0;
   z-index: 2;
   width: 100vw;
   transition: all 700ms ease-in-out;
-}
+}*/
 
 #upperbody {
   left: 25vw;
@@ -68,12 +73,12 @@ body {
   transition: all 700ms ease-in-out;
 }
 
-#upperbody:hover {
+/*#upperbody:hover {
   left: 0;
   z-index: 2;
   width: 100vw;
   transition: all 700ms ease-in-out;
-}
+}*/
 
 #core {
   right: 25vw;
@@ -82,12 +87,12 @@ body {
   transition: all 700ms ease-in-out;
 }
 
-#core:hover {
+/*#core:hover {
   z-index: 2;
   right: 0;
   width: 100vw;
   transition: all 700ms ease-in-out;
-}
+}*/
 
 #lowerbody {
   right: 0;
@@ -96,11 +101,11 @@ body {
   transition: all 700ms ease-in-out;
 }
 
-#lowerbody:hover {
+/*#lowerbody:hover {
   z-index: 2;
   width: 100vw;
   transition: all 700ms ease-in-out;
-}
+}*/
 
 footer {
   z-index: 4;

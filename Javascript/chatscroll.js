@@ -5,6 +5,11 @@
     $("#question3"),
     $("#question4"),
     $("#question5"),
+    $("#question6"),
+    $("#question7"),
+    $("#question8"),
+    $("#question9"),
+    $("#question10"),
     $(".goal h1"),
     $(".goal #stronger"),
     $(".goal #weight"),
@@ -15,6 +20,7 @@
   ];
   //var $animation_elements = $("#tips");
   var $window = $(".advice");
+  var i = 0;
 
   function check_if_in_view() {
     var window_height = $window.outerHeight();
@@ -28,11 +34,12 @@
 
       //check to see if this element is within viewport
       if (
-        element_bottom_position <= window_top_position ||
-        element_top_position >= window_bottom_position
+        element_bottom_position <= window_top_position
       ) {
         element.addClass("animate");
         element.css("opacity", "1");
+        i++;
+        console.log(i);
       } else {
         element.removeClass("animate");
         element.css("opacity", "0");
