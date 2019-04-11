@@ -110,7 +110,7 @@
   width: 5rem;
   height: 5rem;
   position: absolute;
-  transform: translateX(700%);
+  left: 105%;
   top: 45%;
   border: 2px white solid;
   border-radius: 50%;
